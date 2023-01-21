@@ -1,0 +1,50 @@
+#cupom {
+  background-color: #A1E3D8;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #005555;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input input {
+  padding: 5px;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 570px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+  transition: 0.1s ease-in-out;
+}
+#cupom .input input:hover, #cupom .input input:focus-within {
+  box-shadow: 1px 1px 8px 1px #005555;
+  transition: 0.1s ease-in-out;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  outline: none;
+  height: 60px;
+  text-align: center;
+  width: 180px;
+  background-color: #069A8E;
+  color: #A1E3D8;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #005555;
+  border-radius: 30px;
+  transition: 0.15s ease-in-out;
+}
+#cupom button:hover {
+  background-color: #005555;
+  color: #069A8E;
+  border: 2px solid #069A8E;
+  transition: 0.15s ease-in-out;
+}
